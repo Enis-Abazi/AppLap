@@ -4,8 +4,11 @@ body {
     color: #212529;
     font-family: "Bold";
     scroll-behavior: smooth;
-    position: relative;
+    position: relative !important;
 }
+
+
+/* This position is forced to remove the overflow y */
 
 * {
     padding: 0;
@@ -746,7 +749,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
-        position: relative;
+        position: relative !important;
     }
     * {
         padding: 0;
@@ -870,7 +873,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
-        position: relative;
+        position: relative !important;
     }
     * {
         padding: 0;
@@ -988,6 +991,7 @@ footer .footer-bottom .center h1 i {
     body {
         overflow-x: hidden;
         position: relative;
+        position: relative !important;
     }
     * {
         padding: 0;
@@ -1088,7 +1092,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
-        position: relative;
+        position: relative !important;
     }
     * {
         padding: 0;
@@ -1129,7 +1133,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
-        position: relative;
+        position: relative !important;
     }
     * {
         padding: 0;
@@ -1166,7 +1170,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
-        position: relative;
+        position: relative !important;
     }
     * {
         padding: 0;
