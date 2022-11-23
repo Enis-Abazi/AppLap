@@ -4,6 +4,7 @@ body {
     color: #212529;
     font-family: "Bold";
     scroll-behavior: smooth;
+    position: relative;
 }
 
 * {
@@ -290,13 +291,11 @@ header .nav ul li a {
 .get-in-touch .row .col .fa-house {
     position: relative;
     font-size: 25px;
-    left: 30px;
     color: #878787;
 }
 
 .get-in-touch .row .col .fa-mobile {
     position: relative;
-    left: 45px;
     font-size: 25px;
     color: #878787;
 }
@@ -327,16 +326,17 @@ input {
     outline: none;
 }
 
-.get-in-touch .row #together-1 {
-    position: relative;
-    bottom: 75px;
-    right: 10px;
+.get-in-touch .row .col .center {
+    display: flex;
+    column-gap: 20px;
 }
 
-.get-in-touch .row #together-2 {
-    position: relative;
-    bottom: 100px;
-    left: 20px;
+.get-in-touch .row #col-2 .center {
+    column-gap: 15px;
+}
+
+.get-in-touch .row .col #col-3 {
+    column-gap: 50px;
 }
 
 .get-in-touch .btn {
@@ -416,6 +416,7 @@ footer .footer-top .row .col .icons i {
     border-radius: 100%;
     background: #C7C7C7;
     cursor: pointer;
+    color: #5e5959;
 }
 
 footer .footer-top .row .col .icons i:hover {
@@ -464,6 +465,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
+        position: relative;
     }
     * {
         padding: 0;
@@ -553,6 +555,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
+        position: relative;
     }
     * {
         padding: 0;
@@ -639,6 +642,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
+        position: relative;
     }
     * {
         padding: 0;
@@ -714,6 +718,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
+        position: relative;
     }
     * {
         padding: 0;
@@ -753,6 +758,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
+        position: relative;
     }
     * {
         padding: 0;
@@ -782,15 +788,13 @@ footer .footer-bottom .center h1 i {
         left: 10px;
     }
     .get-in-touch .row .col .fa-envelope {
-        position: relative;
-        top: 30px;
-        right: 20px;
+        position: unset;
     }
     .get-in-touch .row .col .fa-mobile {
-        left: 30px;
+        position: unset;
     }
     .get-in-touch .row .col .fa-house {
-        left: 10px;
+        position: unset;
     }
 }
 
@@ -798,6 +802,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
+        position: relative;
     }
     * {
         padding: 0;

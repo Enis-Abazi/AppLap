@@ -4,6 +4,7 @@ body {
     color: #212529;
     font-family: "Bold";
     scroll-behavior: smooth;
+    position: relative;
 }
 
 * {
@@ -707,6 +708,7 @@ footer .footer-top .row .col .icons i {
     border-radius: 100%;
     background: #C7C7C7;
     cursor: pointer;
+    color: #5e5959;
 }
 
 footer .footer-top .row .col .icons i:hover {
@@ -744,6 +746,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
+        position: relative;
     }
     * {
         padding: 0;
@@ -867,6 +870,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
+        position: relative;
     }
     * {
         padding: 0;
@@ -983,6 +987,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
+        position: relative;
     }
     * {
         padding: 0;
@@ -1083,6 +1088,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
+        position: relative;
     }
     * {
         padding: 0;
@@ -1123,6 +1129,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
+        position: relative;
     }
     * {
         padding: 0;
@@ -1159,6 +1166,7 @@ footer .footer-bottom .center h1 i {
     html,
     body {
         overflow-x: hidden;
+        position: relative;
     }
     * {
         padding: 0;
